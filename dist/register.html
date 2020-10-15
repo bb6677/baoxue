@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="xin.css">
+    <link rel="stylesheet" href="font1/font/iconfont.css">
+    <style>
+        body {
+            background: url("imgs/background.jpg") no-repeat;
+            background-size: cover;
+            background-position: 50%;
+            height: 650px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .register {
+            width: 365px;
+            background: #fff;
+            height: 346px;
+            border-radius: 5px;
+            position: absolute;
+            top: 160px;
+            right: 0;
+            margin-right: 70px;
+        }
+
+        .top {
+            padding: 25px;
+        }
+
+        .top .top-1 {
+            float: left;
+            width: 50%;
+            text-align: center;
+            font-size: 18px;
+            color: #000;
+        }
+
+        .top .top-2 {
+            text-align: center;
+            font-size: 18px;
+            color: #cecece;
+        }
+
+        .section {
+            padding: 0 25px;
+        }
+
+        .section input {
+            width: 233px;
+            height: 20px;
+            line-height: 20px;
+
+            position: relative;
+        }
+
+        .section-1,
+        .section-2 {
+            width: 312px;
+            height: 32px;
+            border: 1px solid #cecece;
+            line-height: 32px;
+            margin-bottom: 16px;
+        }
+
+        .section-3 {
+            width: 280px;
+            height: 20px;
+            line-height: 20px;
+        }
+
+        #sp3 {
+            color: rgb(74, 74, 219);
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        b {
+            color: rgb(74, 74, 219);
+        }
+
+        #section-btn {
+            width: 100%;
+            height: 44px;
+            cursor: pointer;
+            text-align: center;
+            color: #fff;
+            background: #00aeff;
+            font-size: 18px;
+            line-height: 44px;
+            margin-top: 40px;
+        }
+
+        .footer {
+            width: 312px;
+            margin: auto;
+            margin-top: 38px;
+        }
+
+        .footer-lf {
+            float: left;
+            font-size: 14px;
+
+        }
+
+        .footer-rt {
+            float: right;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: rgb(74, 74, 219);
+        }
+
+        .b-footer {
+            width: 1090px;
+            margin: auto;
+            padding: 80px 0;
+            background-color: #1a1a1a;
+            
+        }
+
+        .b-footer-list {
+            text-align: center;
+            width: 1090px;
+            margin: 0 100px;
+            margin-bottom: 20px;
+        }
+
+        .one {
+            background: url(imm/b.png) no-repeat ;
+
+            float: left;
+            color: #cecece;
+            height: 51px;
+            line-height: 51px;
+            padding-left: 75px;
+            margin-right: 75px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .two {
+            background: url(imm/d.png) no-repeat;
+            float: left;
+            color: #cecece;
+            height: 51px;
+            line-height: 51px;
+            padding-left: 80px;
+            margin-right: 80px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .three {
+            background: url(imm/c.png) no-repeat;
+            float: left;
+            color: #cecece;
+            height: 51px;
+            line-height: 51px;
+            padding-left: 80px;
+            margin-right: 80px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .four {
+            background: url(imm/y.png) no-repeat;
+            color: #cecece;
+            height: 51px;
+            line-height: 51px;
+            padding-left: 80px;
+            margin-right: 80px;
+            font-size: 16px;
+            float: left;
+            border: none;
+        }
+
+        .b-footer-1 {
+            width: 1090px;
+            text-align: center;
+            margin: auto;
+            padding: 15px 0 8px;
+            border-top: 1px solid #cecece;
+        }
+
+        .b-footer-1>li {
+            width: 90px;
+            float: left;
+            font-size: 14px;
+            border-right: 1px solid #fff;
+        }
+
+        a {
+            color: #cecece;
+        }
+
+        #li {
+            margin-left: 180px;
+        }
+
+        #li1 {
+            border-right: none;
+        }
+
+        .b-footer-2 {
+            margin-top: 10px;
+            width: 1090px;
+            text-align: center;
+            margin: auto;
+        }
+
+        li {
+            float: left;
+            font-size: 12px;
+            border-right: 1px solid #fff;
+        }
+
+        .b-footer-2 li a {
+            color: #cecece;
+            padding: 0 20px
+        }
+
+        #li3 {
+            width: 125px;
+            margin-left: 70px;
+        }
+
+        #li4 {
+            width: 137px;
+        }
+
+        #li5 {
+            width: 89px;
+        }
+
+        #li6 {
+            width: 575px;
+            border-right: none;
+        }
+
+        .type-area-footer {
+            background-color: #1a1a1a;
+        }
+        .op{
+            height: 650px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="register">
+        <div class="top">
+            <div class="top-1">邮箱登录</div>
+            <div class="top-2">手机号登录</div>
+            <!-- <div class="top-3">
+               <p><span class=""></span>&nbsp;使用短信验证登录</p> 
+            </div> -->
+        </div>
+        <div class="section">
+            <div class="section-1">
+                <span class="iconfont" id="sp1">&#xe614;</span>
+                <input type="text" placeholder="请使用邮箱登录">
+            </div>
+            <div class="section-2">
+                <span class="iconfont" id="sp2">&#xe62a;
+                </span>
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="section-3">
+                <p><span class="iconfont" id="sp3">&#xe617;</span>&nbsp;使用 <b>网易账号管家</b> ，全面保护您的账号！</p>
+            </div>
+            <button id="section-btn">登录</button>
+        </div>
+
+        <div class="footer">
+            <div class="footer-lf"> <a href="">忘记密码</a> </div>
+            <div class="footer-rt"> <a href="">邮箱注册</a> </div>
+        </div>
+    </div>
+   <div class="op"></div>
+    <div class="type-area-footer">
+        <div class="b-footer">
+            <ul class="b-footer-list clean">
+                <li class="one">正版周边</li>
+                <li class="two">7天无忧退货</li>
+                <li class="three">满99元免邮费</li>
+                <li class="four">网易自营电商</li>
+            </ul>
+            <ul class="b-footer-1 clean">
+                <li id="li"><a href="">公司简介</a></li>
+                <li><a href="">规则中心</a></li>
+                <li><a href="">售后服务</a></li>
+                <li><a href="">配送与验收</a></li>
+                <li><a href="">商务合作</a></li>
+                <li><a href="">相关法律</a></li>
+                <li><a href="">联系我们</a></li>
+                <li id="li1"><a href="">加入我们</a></li>
+
+            </ul>
+            <ul class="b-footer-2">
+                <li id="li3"><a href="">食品经营许可证</a></li>
+                <li id="li4"><a href="">出版物经营许可证</a></li>
+                <li id="li5"><a href="">营业执照</a></li>
+                <li id="li6"><a href="">网易公司版权所有 © 1997-2020 浙出发滨零字第0108号 统一社会信用代码:91330108691700232G</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

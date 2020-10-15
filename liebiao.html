@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .liebiao-section-1 {
+            width: 1090px;
+            margin: auto;
+            padding: 20px 0;
+            line-height: 20px;
+            font-size: 18px;
+        }
+
+        .liebiao-section-2 {
+            width: 1090px;
+            margin: auto;
+        }
+
+        .liebiao-1 {
+            border: 1px solid #cecece;
+            border-bottom: none;
+        }
+
+        .liebiao-1>ul>li {
+            float: left;
+            margin-right: 50px;
+            padding: 20px 0;
+        }
+
+        .liebiao-2 {
+            border: 1px solid #cecece;
+            border-bottom: none;
+        }
+
+        .liebiao-2>ul>li {
+            float: left;
+            margin-right: 50px;
+            padding: 20px 0;
+        }
+
+        .liebiao-3 {
+            border: 1px solid #cecece;
+            /* border-top: none; */
+        }
+
+        .liebiao-3>ul>li {
+            float: left;
+            margin-right: 60px;
+            padding: 20px 0;
+        }
+
+        #qujian1 {
+            width: 70px;
+            height: 20px;
+            border: 1px solid #cecece;
+            margin-top: 8px;
+            line-height: 20px;
+        }
+
+        #qujian2 {
+            width: 70px;
+            height: 20px;
+            border: 1px solid #cecece;
+            margin-top: 8px;
+            line-height: 20px;
+        }
+
+        #qujian3>button {
+            width: 70px;
+            height: 30px;
+            background-color: blue;
+
+        }
+
+        .content-lis {
+            width: 1090px;
+            margin: auto;
+        }
+        .content-lis>ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .content-lis>ul>li {
+            width: 260px;
+            height: 300px;
+            border: 1px solid #e8e8e8;
+            /* margin-right: px; */
+            margin-bottom: 16px;
+            text-align: center;
+            background: #fff;
+        }
+
+        .content-lis>ul>li>img {
+            height: 210px;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        .content-lis>ul>li p {
+            width: 260px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .content-lis>ul>li p:nth-child(3) {
+            color: red;
+            line-height: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/xin.css">
+    <link rel="stylesheet" href="font1/font/iconfont.css">
+
+</head>
+
+<body>
+    <script src="jquery.1.11.3.js"></script>
+    <script src="bootstrap.js"></script>
+    <div class="type-area-top">
+        <div class="top">
+            <div class="left">
+                <span id="sp1">中国大陆暴雪授权周边商城</span>
+                <span id="sp2" class="iconfont">&#xe606;更多优惠周边 ></span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li id="right-id-1"><a href="logn.html">登录</a></li>
+                    <li id="right-id-2"><a href="zhuce.html">注册</a></li>
+                    <li><a href="">客户服务&nbsp;&nbsp;^</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="type-area-nav">
+        <div class="nav">
+            <div class="lfi">
+                <a href="http://bmall.163.com/bmall"><img
+                        src="https://yanxuan-static.nosdn.127.net/hxm/b2c-web/p/20150730/static/media/banner.0f03c441.png"
+                        alt=""></a>
+            </div>
+            <div class="rt">
+                <input type="text" id="inpt1" placeholder="请输入搜索内容">
+                <span class="iconfont">&#xe616;&nbsp;&nbsp;&#xe603;</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="type-area-nav-scoll">
+        <div class="nav-scoll">
+            <div class="nav-scoll-img">
+            </div>
+            <div class="nav-scoll-nav">
+                <ul class="nav-scoll-nav-ul clean">
+                    <li>首页</li>
+                    <li>居家生活</li>
+                    <li>手办模型</li>
+                    <li>数码外设</li>
+                    <li>佩饰挂件</li>
+                    <li>服装服饰</li>
+                    <li>图书文具</li>
+                </ul>
+            </div>
+            <div class="nav-scoll-sp">
+                <span class="iconfont">&#xe616;</span>
+                <span class="iconfont">&#xe614;
+                    <ul>
+                        <li> <a href="http://bmall.163.com/login">登录</a></li>
+                        <li> <a
+                                href="https://zc.reg.163.com/regInitialized?pd=bmall&pkid=PIqNnTT&pkht=bmall.163.com#/">注册</a>
+                        </li>
+                    </ul>
+                </span>
+                <span class="iconfont ic-ul">&#xe603;</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="type-area-header">
+        <header class="header">
+            <ul class="clean header-ul">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="">居家生活</a>
+                    <div class="header-nav clean">
+                        <ul class="Uls clean">
+                            <li>
+                                <a href=""><img src="imm/洗护.png" alt="">
+                                    <p>洗护</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/抱枕.png" alt="">
+                                    <p>抱枕</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/床品.png" alt="">
+                                    <p>床品</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/收纳.png" alt="">
+                                    <p>收纳</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/拖鞋.png" alt="">
+                                    <p>拖鞋</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/水杯.png" alt="">
+                                    <p>水杯</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/家饰.png" alt="">
+                                    <p>家饰</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/箱包.png" alt="">
+                                    <p>箱包</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/餐橱.png" alt="">
+                                    <p>食品</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/雨伞.png" alt="">
+                                    <p>雨伞</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">手板模型</a>
+
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/拖鞋.png" alt="">
+                                <p>拖鞋</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/水杯.png" alt="">
+                                <p>水杯</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a href="">数码外设</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">佩饰挂件</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">服装服饰</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">图书文具</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <div class="liebiao-section">
+        <div class="liebiao-section-1">
+            全部商品>商品筛选
+        </div>
+        <div class="liebiao-section-2">
+            <div class="liebiao-1 clean">
+                <ul>
+                    <li>游戏</li>
+                    <li>全部</li>
+                    <li>魔兽世界</li>
+                    <li>守望先锋</li>
+                    <li>炉石传说</li>
+                    <li>暗黑破坏神</li>
+                    <li>星际争霸</li>
+                    <li>风暴英雄</li>
+                    <li>魔兽争霸</li>
+                    <li>暴雪游戏</li>
+                </ul>
+            </div>
+            <div class="liebiao-2 clean">
+                <ul>
+                    <li>商品类别</li>
+                    <li>全部</li>
+                    <li>居家生活</li>
+                    <li>手板模型</li>
+                    <li>数码外设</li>
+                    <li>配饰挂件</li>
+                    <li>服饰服装</li>
+                    <li>图文工具</li>
+                </ul>
+            </div>
+            <div class="liebiao-3 clean">
+                <ul>
+                    <li>最新</li>
+                    <li>销量</li>
+                    <li>价格</li>
+                    <li id="qujian1">￥</li>
+                    <li id="qujian2">￥</li>
+                    <li id="qujian3"><button>确定</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-lis lis">
+        <ul>
+            <!-- <li>
+                <img src="https://yanxuan-item.nosdn.127.net/5137f51b9090787bca826390c0023b17.png" alt="">
+                <p>暗黑破坏神</p>
+                <p>商城价: ￥ 68</p>
+                <p>手扎本</p>
+            </li> -->
+        </ul>
+    </div>
+    <div class="body-bottom clean">
+        <div class="serve-lf">
+            <p>客户服务</p>
+            <div class="serve-lf-1">
+                <dl>
+                    <dt><span class="iconfont">&#xe74d;</span></dt>
+                    <dd>客户服务</dd>
+                </dl>
+                <dl>
+                    <dt><span class="iconfont">&#xe635;</span></dt>
+                    <dd>用户反馈</dd>
+                </dl>
+            </div>
+
+        </div>
+        <div class="rim clean">
+            <p>网易暴雪周边商城</p>
+            <p>是网易旗下运营暴雪游戏周边产品的购物商城。秉承网易一贯的严谨态度，力求帮消费者引进、设计、制造优质的暴雪周边产品。</p>
+            <div class="rim-1">
+                <span>关注我们</span>
+                <span class="iconfont">&#xe82c;</span>
+                <span class="iconfont">&#xe60f;</span>
+            </div>
+        </div>
+        <div class="sign clean">
+            <img src="imm/bl.png" alt="">
+            <img src="imm/wy.png" alt="">
+        </div>
+    </div>
+
+    <div class="type-area-footer">
+        <div class="footer">
+            <ul class="footer-list clean">
+                <li class="one">正版周边</li>
+                <li class="two">7天无忧退货</li>
+                <li class="three">满99元免邮费</li>
+                <li class="four">网易自营电商</li>
+            </ul>
+            <ul class="footer-1 clean">
+                <li id="li"><a href="">公司简介</a></li>
+                <li><a href="">规则中心</a></li>
+                <li><a href="">售后服务</a></li>
+                <li><a href="">配送与验收</a></li>
+                <li><a href="">商务合作</a></li>
+                <li><a href="">相关法律</a></li>
+                <li><a href="">联系我们</a></li>
+                <li id="li1"><a href="">加入我们</a></li>
+
+            </ul>
+            <ul class="footer-2">
+                <li id="li3"><a href="">食品经营许可证</a></li>
+                <li id="li4"><a href="">出版物经营许可证</a></li>
+                <li id="li5"><a href="">营业执照</a></li>
+                <li id="li6"><a href="">网易公司版权所有 © 1997-2020 浙出发滨零字第0108号 统一社会信用代码:91330108691700232G</a></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        // $.get("http://jx.xuzhixiang.top/ap/api/reg.php",{
+        //     username:"huateng",
+        //     password:123456
+        // },data=>{
+        //     console.log(data);
+        // })
+        $.get("http://jx.xuzhixiang.top/ap/api/login.php", {
+            username: "huateng",
+            password: 123456
+        }, data => {
+            console.log(data);
+        })
+        //  $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/5137f51b9090787bca826390c0023b17.png",
+        //     pname:"暗黑破坏神",
+        //     pprice: 68,
+        //     pdesc:"手札本"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/8d56eaab5f4c3fe94ff32c7676da429a.png",
+        //     pname:"暗黑破坏神",
+        //     pprice: 85,
+        //     pdesc:"艺术设定集"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/f0ec8fca035c3ee68cc815381b4720db.png",
+        //     pname:"魔兽世界",
+        //     pprice: 119,
+        //     pdesc:"毛绒公仔"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/dce0d459b6c3be4347815ac5f00e7b84.png",
+        //     pname:"魔兽世界",
+        //     pprice: 248,
+        //     pdesc:"时光沙漏"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+
+        //     $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/5289a10511dba27e726daec34f030e5b.png",
+        //     pname:"炉石传说",
+        //     pprice: 59,
+        //     pdesc:"安卓数据线"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/e9e90e8e7276111b10a1119d0ecccf75.png",
+        //     pname:"守望先锋",
+        //     pprice: 499,
+        //     pdesc:"拉杆箱"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/5becf09f20ea71edb3569db0d6bb1d25.png",
+        //     pname:"守望先锋",
+        //     pprice: 289,
+        //     pdesc:"人偶手办"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/f780f696c63e3e1fbcbddf53be86b046.png",
+        //     pname:"守望先锋",
+        //     pprice: 79,
+        //     pdesc:"挂件"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+        //    $.post("http://jx.xuzhixiang.top/ap/api/goods/goods-add.php",{
+        //     uid:"43419",
+        //     pimg:"https://yanxuan-item.nosdn.127.net/9f0fda18b557661ae70bd09869abb783.png",
+        //     pname:"守望先锋",
+        //     pprice: 109,
+        //     pdesc:"迷你手办"
+        // },data=>{
+        //     console.log(data);
+        // }) 
+
+        // $.get("http://jx.xuzhixiang.top/ap/api/productlist.php",{
+        //     uid:"43419"
+        // },data=>{
+        //     console.log(data);
+        // })
+
+
+
+
+
+
+            //登录状态判断
+        if(localStorage.getItem("code")==1){
+                $("#right-id-1").html("欢迎老表"+localStorage.getItem("username"));
+                $("#right-id-2").html("<a id='zhuxiao_btn'>注销<a/>")
+                $("#zhuxiao_btn").click(function(){
+                    localStorage.setItem("code","0");
+                    location.reload(true);
+                })
+            }
+        
+        // function proList() {        
+            $.ajax({
+                url: 'http://jx.xuzhixiang.top/ap/api/allproductlist.php',
+                data: {
+                    uid: "43419"
+                },
+                 success(res) {
+                    let html = '';
+                    (function (v) {
+                        res.data.forEach(v => {
+                            html += `
+                                <li data-id="${v.pid}">
+                                <img src="${v.pimg}" alt="">
+                                <p>${v.pname}</p>
+                                <p>商城价: ￥ ${v.pprice}</p>
+                                <p>${v.pdesc}</p>
+                                </li>
+							`
+                        });
+                       $('.lis ul').html(html);
+                        $(".lis ul li").click(function () {
+                            location.assign("xiangqing.html?id="+$(this).data("id"));
+                        });
+                    })();
+                },
+                error(e) {
+                    alert(e)
+                }
+            })
+        // }
+        proList();
+
+        if(localStorage.getItem("code")==1){
+                $("#right-id-1").html("欢迎老表"+localStorage.getItem("username"));
+                $("#right-id-2").html("<a id='zhuxiao_btn'>注销<a/>")
+                $("#zhuxiao_btn").click(function(){
+                    localStorage.setItem("code","0");
+                    location.reload(true);
+                })
+            }
+    </script>
+</body>
+
+</html>

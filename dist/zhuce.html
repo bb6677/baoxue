@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="xin.css">
+
+    <style>
+        body {
+            background-color: #f1eded;
+        }
+
+        .type-area-herder {
+            background-color: #ffffff;
+        }
+
+        .herder {
+            width: 1100px;
+            margin: auto;
+            background-color: #ffffff;
+        }
+
+        .herder-lf {
+            width: 168px;
+            height: 64px;
+            float: left;
+        }
+
+        .herder-lf img {
+            width: 168px;
+            margin-top: 20px;
+        }
+
+        .herder-rt {
+            width: 92px;
+            margin-top: 20px;
+            font-size: 14px;
+            float: right;
+        }
+
+        .herder-rt b {
+            display: inline-block;
+            line-height: 14px;
+            background-color: #fe4313;
+            color: #ffffff;
+            border-radius: 6px;
+            height: 16px;
+        }
+
+        .section {
+            width: 1100px;
+            margin-bottom: 100px;
+            margin: auto;
+            background-color: #ffffff;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .top {
+            width: 540px;
+            margin: auto;
+            margin-top: 64px;
+        }
+
+        .num-1,
+        .num-2,
+        .num-3 {
+            width: 179px;
+            float: left;
+            color: #cdcdcd;
+            position: relative;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .circle-1,
+        .circle-2,
+        .circle-3 {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 30px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            margin: 0 auto 10px;
+            font-size: 20px;
+        }
+
+
+
+        .across {
+            position: absolute;
+            width: 136px;
+            height: 2px;
+
+            top: 21px;
+            left: 112px;
+        }
+
+        #cl1 {
+            border-color: #2c82ff;
+            color: #2c82ff;
+        }
+
+        #cl2 {
+            background-color: #2c82ff;
+        }
+
+        #cl3 {
+            color: #2c82ff;
+        }
+
+        .section-1,
+        .section-2 {
+            width: 444px;
+            height: 46px;
+            border: 1px solid #cecece;
+
+            margin: 20px auto;
+        }
+
+        .section-1 input {
+            width: 100%;
+            height: 100%;
+            padding: 0 44px 0 10px;
+
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            font-size: 14px;
+            background: #fff;
+            line-height: 32px;
+            vertical-align: middle;
+        }
+
+        .section-2 input {
+            width: 100%;
+            height: 100%;
+            padding: 0 44px 0 10px;
+            padding-right: 74px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            font-size: 14px;
+            background: #fff;
+            line-height: 32px;
+            vertical-align: middle;
+        }
+
+        .ck-box {
+            width: 444px;
+            margin: auto;
+
+            color: #666;
+            font-size: 14px;
+
+            padding-left: 24px;
+            cursor: pointer;
+        }
+
+        .ck-box>b {
+            color: rgb(74, 74, 219);
+        }
+
+        .ck-box>input {
+            border: rgb(74, 74, 219);
+        }
+
+        .zc-button {
+            width: 444px;
+            height: 46px;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        #zc-btn {
+            height: 46px;
+            line-height: 46px;
+            border-color: #2c82ff;
+            background-color: #2c82ff;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 2px;
+            margin: auto;
+            color: #fff;
+            cursor: pointer;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+
+        .qr {
+            width: 444px;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 100px;
+        }
+
+        .section>.qr p {
+            font-size: 14px;
+            margin: auto;
+        }
+
+        .qr p a {
+            color: rgb(74, 74, 219);
+        }
+
+
+        .section-A {
+            width: 1100px;
+            margin-bottom: 100px;
+            margin: auto;
+            background-color: #ffffff;
+            padding-top: 20px;
+            margin-top: 20px;
+            padding-bottom: 100px;
+            display: none;
+        }
+
+        .top {
+            width: 540px;
+            margin: auto;
+            margin-top: 64px;
+        }
+
+        .num-1,
+        .num-2,
+        .num-3 {
+            width: 179px;
+            float: left;
+            color: #cdcdcd;
+            position: relative;
+            text-align: center;
+            font-size: 14px;
+        }
+
+
+
+        .circle-1,
+        .circle-2,
+        .circle-3 {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 30px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            margin: 0 auto 10px;
+            font-size: 20px;
+        }
+
+        .across {
+            position: absolute;
+            width: 136px;
+            height: 2px;
+            background: #f2f2f2;
+            top: 21px;
+            left: 112px;
+        }
+
+        #cl4 {
+            border-color: #2c82ff;
+            color: #2c82ff;
+        }
+
+        #cl5 {
+            background-color: #2c82ff;
+        }
+
+        #cl6 {
+            color: #2c82ff;
+        }
+
+        .section-1-A,
+        .section-2-A {
+            width: 444px;
+            height: 46px;
+            border: 1px solid #cecece;
+
+            margin: 20px auto;
+        }
+
+        .section-1-A {
+            width: 440px;
+            height: 100%;
+            padding: 0 44px 0 10px;
+            font-size: 14px;
+            background: #f8f8f8;
+            line-height: 32px;
+            vertical-align: middle;
+            border: none;
+        }
+
+        .section-2-A1 {
+            height: 100%;
+            width: 50px;
+            float: left;
+            line-height: 46px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .section-2-A input {
+            width: 380px;
+            height: 100%;
+            padding: 0 44px 0 10px;
+            /* padding-right: 30px; */
+            /* margin-left: 34px; */
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            font-size: 14px;
+            background: #fff;
+            line-height: 32px;
+            vertical-align: middle;
+            border: none;
+        }
+
+        .zc-button {
+            width: 444px;
+            height: 46px;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        #zc-btn-b {
+            height: 46px;
+            line-height: 46px;
+            border-color: #2c82ff;
+            background-color: #2c82ff;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 2px;
+            margin: auto;
+            color: #fff;
+            cursor: pointer;
+            font-weight: bolder;
+            font-size: 18px;
+            /* padding-bottom: 100px; */
+        }
+
+
+
+
+
+
+        .section-B {
+            width: 1100px;
+            margin-bottom: 100px;
+            margin: auto;
+            background-color: #ffffff;
+            padding-top: 20px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        .top {
+            width: 540px;
+            margin: auto;
+            margin-top: 64px;
+        }
+
+        .num-1,
+        .num-2,
+        .num-3 {
+            width: 179px;
+            float: left;
+            color: #cdcdcd;
+            position: relative;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .section-B>.num-3 {
+            color: #2c82ff;
+        }
+
+        .circle-1,
+        .circle-2,
+        .circle-3 {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 30px;
+            border: 1px solid #cdcdcd;
+            text-align: center;
+            margin: 0 auto 10px;
+            font-size: 20px;
+        }
+
+        .across {
+            position: absolute;
+            width: 136px;
+            height: 2px;
+            background: #f2f2f2;
+            top: 21px;
+            left: 112px;
+        }
+
+        #cl7 {
+            border-color: #2c82ff;
+            color: #2c82ff;
+        }
+
+        #cl9 {
+            color: #2c82ff;
+        }
+
+        .tru {
+            width: 440px;
+            /* height: 52px; */
+            font-size: 18px;
+            color: greenyellow;
+
+            margin: auto;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .tru>a {
+            color: #2c82ff;
+            font-size: 22px;
+        }
+
+
+
+
+
+        .footer {
+            width: 1100px;
+            height: 150px;
+            margin: auto;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        .footer ul {
+            margin: auto;
+            text-align: center;
+        }
+
+        .footer ul li {
+            float: left;
+
+            margin: 0 5px;
+        }
+
+        .footer ul li:first-child {
+            margin-left: 280px;
+        }
+
+        .footer>p {
+            margin: 10px 0;
+        }
+
+        .type-area-footer {
+            background-color: #f1eded;
+        }
+
+        #section-sp1 {
+            width: 440px;
+            display: block;
+            color: red;
+            margin: auto;
+        }
+
+        #section-sp2 {
+            width: 440px;
+            display: block;
+            color: red;
+            margin: auto;
+        }
+
+        #section-A-sp3 {
+            width: 440px;
+            display: block;
+            color: red;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="type-area-herder">
+        <div class="herder clean">
+            <div class="herder-lf">
+                <img src="imgs/logo-906b3317.png" alt="">
+            </div>
+            <div class="herder-rt">
+                靓号注册
+                <b>new</b>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <!--  -->
+        <div class="section ss clean">
+            <div class="top clean">
+                <div class="num-1 clean">
+                    <div class="circle-1" id="cl1">
+                        1
+                    </div>
+                    <div class="across" id="cl2">
+                    </div>
+                    <p id="cl3">填写账号密码</p>
+                </div>
+                <div class="num-2 clean">
+                    <div class="circle-2">
+                        2
+                    </div>
+                    <div class="across">
+                    </div>
+                    <p>验证手机号码</p>
+                </div>
+                <div class="num-3 clean">
+                    <div class="circle-3">
+                        3
+                    </div>
+                    <p>完成注册</p>
+                </div>
+            </div>
+            <div class="section-1">
+                <input type="text" placeholder="请输入邮箱地址" id="section-1-ipt">
+
+            </div>
+            <span id="section-sp1"></span>
+            <div class="section-2">
+                <input type="text" placeholder="请输入8-16位密码" id="ipt-section-1-t">
+
+            </div>
+            <span id="section-sp2"></span>
+            <div class="ck-box">
+                <input type="checkbox" id="ck-box-ck">
+                用户勾选及代表同意<b>《网易邮箱服务条款》</b>和<b>《网易隐私条款》</b>
+            </div>
+            <div class="zc-button">
+                <button id="zc-btn" class="zc-btn">下一步</button>
+            </div>
+            <div class="qr">
+                <p>已有帐号？&nbsp; <a href="">去登录</a></p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="section-A ss clean">
+            <div class="top clean">
+                <div class="num-1 clean">
+                    <div class="circle-1">
+                        1
+                    </div>
+                    <div class="across">
+                    </div>
+                    <p>填写账号密码</p>
+                </div>
+                <div class="num-2 clean" id="cl4">
+                    <div class="circle-2">
+                        2
+                    </div>
+                    <div class="across" id="cl5">
+                    </div>
+                    <p id="cl6">验证手机号码</p>
+                </div>
+                <div class="num-3 clean">
+                    <div class="circle-3">
+                        3
+                    </div>
+                    <p>完成注册</p>
+                </div>
+            </div>
+            <div class="section-1-A">
+
+                为了确保帐号安全，您的手机号码将作为该帐号的安全手机。安全手机可用于找回密码、修改密保等操作。
+
+            </div>
+            <div class="section-2-A">
+                <div class="section-2-A1">
+                    +86
+                </div>
+                <input type="text" placeholder="请输入8-16位密码" id="section-A-ipt">
+            </div>
+            <span id="section-A-sp3"></span>
+
+            <div class="zc-button">
+                <button class="zc-btn" id="zc-btn-b">验证手机号</button>
+            </div>
+
+        </div>
+        <!--  -->
+        <div class="section-B ss clean">
+            <div class="top clean">
+                <div class="num-1 clean">
+                    <div class="circle-1">
+                        1
+                    </div>
+                    <div class="across">
+                    </div>
+                    <p>填写账号密码</p>
+                </div>
+                <div class="num-2 clean">
+                    <div class="circle-2">
+                        2
+                    </div>
+                    <div class="across">
+                    </div>
+                    <p>验证手机号码</p>
+                </div>
+                <div class="num-3 clean" id="cl7">
+                    <div class="circle-3" id="cl8">
+                        3
+                    </div>
+                    <p id="cl9">完成注册</p>
+                </div>
+                <div class="tru">
+
+                    注册成功! 返回 &nbsp;&nbsp;<a href="logn.html">登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="type-area-footer">
+        <div class="footer">
+            <ul class="clean">
+                <li><a href="">公司简介&nbsp;&nbsp;&nbsp;|&nbsp;</a></li>
+                <li><a href="">网易账号中心&nbsp;&nbsp;&nbsp;|&nbsp;</a></li>
+                <li><a href="">账号中心公众号&nbsp;&nbsp;&nbsp;|&nbsp;</a></li>
+                <li><a href="">网易账号管家&nbsp;&nbsp;&nbsp;|&nbsp;</a></li>
+                <li><a href="">网易靓号&nbsp;&nbsp;&nbsp;|&nbsp;</a></li>
+                <li><a href="">网易帮助中心&nbsp;&nbsp;&nbsp;|&nbsp;</a></li>
+            </ul>
+            <p>增值电信业务经营许可证粤B2-20090191&nbsp;&nbsp;&nbsp;&nbsp;工业和信息化部ICP/IP地址/域名信息备案管理系统</p>
+            <p>
+                网易公司版权所有 © 1997-2020
+            </p>
+        </div>
+    </div>
+    <script src="jquery.1.11.3.js"></script>
+    <script>
+        var Inp = document.getElementById("section-1-ipt");
+        var Inp2 = document.getElementById("ipt-section-1-t");
+        var aSpan = document.getElementById("section-sp1")
+        var aSpan2 = document.getElementById("section-sp2")
+        var aSpan3 = document.getElementById("section-A-sp3")
+        var Ck = document.getElementById("ck-box-ck");
+        var Inp3 = document.getElementById("section-A-ipt")
+        var Zc = document.getElementById("zc-btn-b");
+        // var Btn = document.getElementById("zc-btn")
+        var reg = /^([a-zA-Z_]\w{6,18})$/;
+        var rea = /^([a-zA-Z]\w{8,16})$/;
+        var ree = /^1\d{10}$/;
+        Inp.oninput = function () {
+            let val = this.value;
+
+            if (!reg.test(val)) {
+                aSpan.innerText = "格式错误"
+            } else {
+                aSpan.innerText = "";
+                return true;
+            }
+
+        }
+        console.log(Inp2)
+        Inp2.oninput = function () {
+            let val = this.value
+            if (!rea.test(val)) {
+                aSpan2.innerText = "格式错误"
+            } else {
+                aSpan2.innerText = "";
+                return true;
+            }
+
+        }
+
+        Inp3.oninput = function () {
+            let val = this.value
+            if (ree.test(val)) {
+                aSpan3.innerText = "";
+                return true;
+            } else {
+                aSpan3.innerText = "请正确填写手机号";
+            }
+        }
+        // Ck.onchang = function () {
+        //     if ()
+        // }
+
+        $(function () {
+            // $(".ss").hide();
+            // $(".ss").eq(0).show();
+            $("#zc-btn").click(function () {
+                if (Inp.oninput() && Inp2.oninput && Ck.checked == true) {
+                    
+                    console.log(1);
+                    $.get("http://jx.xuzhixiang.top/ap/api/reg.php", {
+                            username: $("#section-1-ipt").val(),
+                            password:$("#ipt-section-1-t").val()
+                        },function (data) {
+                            console.log(data);
+                            if(data.code==1){
+                                $(".ss").eq(0).hide().siblings().addBack().eq(1).show().siblings().addBack().eq(2)
+                                .hide()
+                            }else{
+                                alert(data.msg);
+                            }
+                        });
+                }
+            })
+            $("#zc-btn-b").click(function () {
+                if (Inp3.oninput()) {
+                    $(".ss").eq(0).hide().siblings().addBack().eq(1).hide().siblings().addBack().eq(2)
+                        .show()
+                }
+            })
+        })
+
+
+
+        $(function () {
+            $("#section-1-ipt") //账号
+            $("#ipt-section-1-t") //密码
+            $("#zc-btn").cl //下一步
+        })
+    </script>
+</body>
+
+</html>

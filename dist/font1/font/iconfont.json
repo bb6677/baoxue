@@ -1,0 +1,128 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "363511",
+      "name": "新浪",
+      "font_class": "xinlang",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "376397",
+      "name": "用户反馈",
+      "font_class": "feedback",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "436368",
+      "name": "生活",
+      "font_class": "42",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "579286",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "693586",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "1133733",
+      "name": "购物车",
+      "font_class": "icon4",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "1905829",
+      "name": "项链-4",
+      "font_class": "xianglian-",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "3217814",
+      "name": "音量",
+      "font_class": "icon-",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3710184",
+      "name": "房间",
+      "font_class": "fangjian",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "3858844",
+      "name": "火爆",
+      "font_class": "huobao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "4550493",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "6154432",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e82c",
+      "unicode_decimal": 59436
+    },
+    {
+      "icon_id": "6204789",
+      "name": "图书",
+      "font_class": "tushu",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "8767303",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "9424873",
+      "name": "模型运行",
+      "font_class": "moxingyunhang",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "10099694",
+      "name": "服装",
+      "font_class": "fuzhuang",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "12592498",
+      "name": "在线客服",
+      "font_class": "zaixiankefu",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    }
+  ]
+}

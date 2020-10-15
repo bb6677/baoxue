@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .car-section1 {
+            width: 1090px;
+            margin: auto;
+            font-size: 16px;
+        }
+
+        .car-section2 {
+            width: 1090px;
+            margin: auto;
+            border: 1px solid #cecece;
+            /* border-bottom: none; */
+        }
+
+        .car-section2-1>ul>li {
+            float: left;
+            font-size: 14px;
+            padding: 15px 0;
+        }
+
+        .car-section2-1 {
+            border: 1px solid #cecece;
+            border-bottom: none;
+        }
+
+        .car-section2-2 {
+            border: 1px solid #cecece;
+            border-bottom: none;
+        }
+
+        .car-section2-3 {
+            border: 1px solid #cecece;
+            border-bottom: none;
+        }
+
+        .car-section2-1>ul>li:nth-child(1) {
+            padding-left: 20px;
+            text-align: right;
+        }
+
+        .car-section2-1>ul>li:nth-child(2) {
+            padding: 15px 15px;
+        }
+
+        .car-section2-1>ul>li:nth-child(3) {
+            width: 400px;
+            text-align: center;
+        }
+
+        .car-section2-1>ul>li:nth-child(4) {
+            width: 100px;
+            text-align: center;
+        }
+
+        .car-section2-1>ul>li:nth-child(5) {
+            width: 111px;
+            text-align: center;
+        }
+
+        .car-section2-1>ul>li:nth-child(6) {
+            width: 119px;
+            text-align: center;
+        }
+
+        .car-section2-1>ul>li:nth-child(7) {
+            width: 150px;
+            text-align: center;
+        }
+
+        .car-section2-2>ul>li {
+            float: left;
+            font-size: 14px;
+            padding: 15px 0;
+        }
+
+        .car-section2-2>ul>li:nth-child(1) {
+            padding-left: 20px;
+            text-align: right;
+        }
+
+        .car-section2-2>ul>li:nth-child(2) img {
+            width: 75px;
+            padding-top: 0;
+            margin-left: 54px;
+        }
+
+        .car-section2-2>ul>li:nth-child(3) {
+            width: 301px;
+            text-align: center;
+        }
+
+        .car-section2-2>ul>li:nth-child(4) {
+            width: 100px;
+            text-align: center;
+            margin-left: 20px;
+            /* padding-left: 30px;    */
+        }
+
+        .car-section2-2>ul>li:nth-child(5) {
+            width: 112px;
+            text-align: center;
+        }
+
+        .car-section2-2>ul>li:nth-child(5) span {
+            width: 112px;
+            text-align: center;
+            margin-left: 10px;
+        }
+
+        .car-section2-2-btn,
+        .car-section2-2-btn1 {
+            width: 25px;
+            height: 28px;
+            background-color: #cecece;
+        }
+
+        .car-section2-2>ul>li:nth-child(6) {
+            width: 120px;
+            text-align: center;
+        }
+
+        .car-section2-2>ul>li:nth-child(7) img {
+            width: 16px;
+            text-align: center;
+        }
+
+        .car-section2-2>ul>li:nth-child(7) {
+            width: 60px;
+            text-align: center;
+            margin-left: 150px;
+        }
+
+        .car-section2-3>ul>li {
+            float: left;
+            font-size: 14px;
+            padding: 15px 0;
+        }
+
+        .car-section2-3>ul>li:nth-child(1) {
+            padding-left: 20px;
+            text-align: right;
+        }
+
+        .car-section2-3>ul>li:nth-child(2) {
+            padding-left: 20px;
+            text-align: right;
+        }
+
+        .car-section2-3>ul>li:nth-child(4) {
+            width: 490px;
+            height: 18px;
+            margin-left: 56px;
+        }
+
+        #car-section2-3-rt-btn {
+            width: 100px;
+            height: 40px;
+            background-color: blue;
+            margin-left: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/xin.css">
+    <link rel="stylesheet" href="font1/font/iconfont.css">
+</head>
+
+<body>
+    <script src="jquery.1.11.3.js"></script>
+    <script src="bootstrap.js"></script>
+    <div class="type-area-top">
+        <div class="top">
+            <div class="left">
+                <span id="sp1">中国大陆暴雪授权周边商城</span>
+                <span id="sp2" class="iconfont">&#xe606;更多优惠周边 ></span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li id="right-id-1"><a href="logn.html">登录</a></li>
+                    <li id="right-id-2"><a href="zhuce.html">注册</a></li>
+                    <li><a href="">客户服务&nbsp;&nbsp;^</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="type-area-nav">
+        <div class="nav">
+            <div class="lfi">
+                <a href="http://bmall.163.com/bmall"><img
+                        src="https://yanxuan-static.nosdn.127.net/hxm/b2c-web/p/20150730/static/media/banner.0f03c441.png"
+                        alt=""></a>
+            </div>
+            <div class="rt">
+                <input type="text" id="inpt1" placeholder="请输入搜索内容">
+                <span class="iconfont">&#xe616;&nbsp;&nbsp;&#xe603;</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="type-area-nav-scoll">
+        <div class="nav-scoll">
+            <div class="nav-scoll-img">
+            </div>
+            <div class="nav-scoll-nav">
+                <ul class="nav-scoll-nav-ul clean">
+                    <li><a href="index.html">首页</a></li>
+                    <li>居家生活</li>
+                    <li>手办模型</li>
+                    <li>数码外设</li>
+                    <li>佩饰挂件</li>
+                    <li>服装服饰</li>
+                    <li>图书文具</li>
+                </ul>
+            </div>
+            <div class="nav-scoll-sp">
+                <span class="iconfont">&#xe616;</span>
+                <span class="iconfont">&#xe614;
+                    <ul>
+                        <li> <a href="http://bmall.163.com/login">登录</a></li>
+                        <li> <a
+                                href="https://zc.reg.163.com/regInitialized?pd=bmall&pkid=PIqNnTT&pkht=bmall.163.com#/">注册</a>
+                        </li>
+                    </ul>
+                </span>
+                <span class="iconfont ic-ul">&#xe603;</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="type-area-header">
+        <header class="header">
+            <ul class="clean header-ul">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="liebiao.html">居家生活</a>
+                    <div class="header-nav clean">
+                        <ul class="Uls clean">
+                            <li>
+                                <a href=""><img src="imm/洗护.png" alt="">
+                                    <p>洗护</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/抱枕.png" alt="">
+                                    <p>抱枕</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/床品.png" alt="">
+                                    <p>床品</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/收纳.png" alt="">
+                                    <p>收纳</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/拖鞋.png" alt="">
+                                    <p>拖鞋</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/水杯.png" alt="">
+                                    <p>水杯</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/家饰.png" alt="">
+                                    <p>家饰</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/箱包.png" alt="">
+                                    <p>箱包</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/餐橱.png" alt="">
+                                    <p>食品</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=""><img src="imm/雨伞.png" alt="">
+                                    <p>雨伞</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">手板模型</a>
+
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/拖鞋.png" alt="">
+                                <p>拖鞋</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/水杯.png" alt="">
+                                <p>水杯</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a href="">数码外设</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">佩饰挂件</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">服装服饰</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">图书文具</a>
+                    <ul class="Uls clean">
+                        <li>
+                            <a href=""><img src="imm/洗护.png" alt="">
+                                <p>洗护</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/抱枕.png" alt="">
+                                <p>抱枕</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/床品.png" alt="">
+                                <p>床品</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""><img src="imm/收纳.png" alt="">
+                                <p>收纳</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <div class="car-section">
+        <div class="car-section1">
+            首页>购物车
+        </div>
+        <div class="car-section2">
+            <div class="car-section2-1 clean">
+                <ul>
+                    <li><input type="checkbox"></li>
+                    <li>全选</li>
+                    <li>商品信息</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li>活动</li>
+                </ul>
+
+            </div>
+            <div class="car-section2-2 clean">
+                <ul>
+                    <li><input type="checkbox"></li>
+                    <li class="car-section2-2-li"><img
+                            src="https://yanxuan-item.nosdn.127.net/eb1e3538f4bf5f729c6655f02fc8e1ab.jpg" alt=""></li>
+                    <li class="car-section2-2-li3">
+                        <p>守望先锋</p>
+                        <p>M</p>
+                    </li>
+                    <li class="car-section2-2-li1">￥299</li>
+                    <li>
+                        <span><button class="car-section2-2-btn">-</button></span>
+                        <span class="car-section2-2-spn asdgh">1</span>
+                        <span><button class="car-section2-2-btn1">+</button></span>
+                    </li>
+                    <li class="num-li  aadsw">￥299</li>
+                    <li><img src="imm/sc.png" alt=""></li>
+                </ul>
+            </div>
+
+            <div class="car-section2-3 clean">
+                <ul>
+                    <li><input type="checkbox"></li>
+                    <li>已选</li>
+                    <li>(1)</li>
+                    <li>批量删除</li>
+                    <li>应付金额: <span>￥48</span>
+                        <p>商品合计：￥48</p>
+                    </li>
+                    <li><button id="car-section2-3-rt-btn">下单</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-lis lis">
+        <ul>
+            <!-- <li>
+                <img src="https://yanxuan-item.nosdn.127.net/5137f51b9090787bca826390c0023b17.png" alt="">
+                <p>暗黑破坏神</p>
+                <p>商城价: ￥ 68</p>
+                <p>手扎本</p>
+            </li> -->
+        </ul>
+    </div>
+    <div class="body-bottom clean">
+        <div class="serve-lf">
+            <p>客户服务</p>
+            <div class="serve-lf-1">
+                <dl>
+                    <dt><span class="iconfont">&#xe74d;</span></dt>
+                    <dd>客户服务</dd>
+                </dl>
+                <dl>
+                    <dt><span class="iconfont">&#xe635;</span></dt>
+                    <dd>用户反馈</dd>
+                </dl>
+            </div>
+
+        </div>
+        <div class="rim clean">
+            <p>网易暴雪周边商城</p>
+            <p>是网易旗下运营暴雪游戏周边产品的购物商城。秉承网易一贯的严谨态度，力求帮消费者引进、设计、制造优质的暴雪周边产品。</p>
+            <div class="rim-1">
+                <span>关注我们</span>
+                <span class="iconfont">&#xe82c;</span>
+                <span class="iconfont">&#xe60f;</span>
+            </div>
+        </div>
+        <div class="sign clean">
+            <img src="imm/bl.png" alt="">
+            <img src="imm/wy.png" alt="">
+        </div>
+    </div>
+
+    <div class="type-area-footer">
+        <div class="footer">
+            <ul class="footer-list clean">
+                <li class="one">正版周边</li>
+                <li class="two">7天无忧退货</li>
+                <li class="three">满99元免邮费</li>
+                <li class="four">网易自营电商</li>
+            </ul>
+            <ul class="footer-1 clean">
+                <li id="li"><a href="">公司简介</a></li>
+                <li><a href="">规则中心</a></li>
+                <li><a href="">售后服务</a></li>
+                <li><a href="">配送与验收</a></li>
+                <li><a href="">商务合作</a></li>
+                <li><a href="">相关法律</a></li>
+                <li><a href="">联系我们</a></li>
+                <li id="li1"><a href="">加入我们</a></li>
+
+            </ul>
+            <ul class="footer-2">
+                <li id="li3"><a href="">食品经营许可证</a></li>
+                <li id="li4"><a href="">出版物经营许可证</a></li>
+                <li id="li5"><a href="">营业执照</a></li>
+                <li id="li6"><a href="">网易公司版权所有 © 1997-2020 浙出发滨零字第0108号 统一社会信用代码:91330108691700232G</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        if(localStorage.getItem("code")==1){
+                $("#right-id-1").html("欢迎老表"+localStorage.getItem("username"));
+                $("#right-id-2").html("<a id='zhuxiao_btn'>注销<a/>")
+                $("#zhuxiao_btn").click(function(){
+                    localStorage.setItem("code","0");
+                    location.reload(true);
+                })
+            }
+
+
+
+        $.get("http://jx.xuzhixiang.top/ap/api/cart-list.php?id=" + localStorage.getItem("UID"), function (data) {
+            console.log(data);
+            // $(".car-section2-2-li img").attr("src",data.data.pimg);
+            // $(".car-section2-2-li1").text(data.data.pprice);
+            // $(".car-section2-2-li3 p").text(data.data.pname);
+            let str = `  <div class="car-section2-1 clean">
+                <ul>
+                    <li><input type="checkbox" class="cb-ipt"></li>
+                    <li>全选</li>
+                    <li>商品信息</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>小计</li>
+                    <li>活动</li>
+                </ul>
+                
+            </div>`;
+            for (let i in data.data) {
+
+                str += `   <div class="car-section2-2 clean">
+                <ul>
+                    <li><input type="checkbox" class="cb-ipt-1"></li>
+                    <li class="car-section2-2-li"><img src="${data.data[i].pimg}" alt=""></li>
+                    <li class="car-section2-2-li3"><p>${data.data[i].pname}</p><p>M</p></li>
+                    <li class="car-section2-2-li1">${data.data[i].pprice}</li>
+                    <li>
+                        <span><button class="car-section2-2-btn">-</button></span>
+                        <span class="asdgh">${data.data[i].pnum}</span>
+                        <span><button class="car-section2-2-btn1">+</button></span>
+                    </li>
+                    <li class="num-li">${data.data[i].pnum*data.data[i].pprice}</li>
+                    <li><img src="imm/sc.png" alt="" id="delete-dv" data-id="${data.data[i].pid}"></li>
+                </ul>
+            </div>`;
+            }
+
+
+            str += `  <div class="car-section2-3 clean">
+                    <ul>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                        <li>批量删除</li>
+                        <li>应付金额: <span class="num-all"></span>
+                        </li>
+                        <li><button id="car-section2-3-rt-btn">下单</button></li>
+                    </ul>
+            </div>`;
+            $(".car-section2").html(str);
+
+            $(".car-section2-2-btn").click(function () {
+                // console.log($(this).parent().siblings().filter(".asdgh").text());
+                if ($(this).parent().siblings().filter(".asdgh").text() > 1) {
+
+                    $(this).parent().siblings().filter(".asdgh").text((Number($(this).parent()
+                        .siblings().filter(".asdgh").text()) - 1));
+
+
+                } else {
+                    $(this).parent().siblings().filter(".asdgh").text(1);
+                };
+                // console.log($(this).parent().parent().siblings().filter(".num-li").text());
+
+                // console.log($(this).parent().parent().siblings().filter(".car-section2-2-li1").text());
+
+
+                $(this).parent().parent().siblings().filter(".num-li").text($(this).parent().parent()
+                    .siblings().filter(".car-section2-2-li1").text() * $(this)
+                    .parent().siblings().filter(".asdgh").text())
+            })
+            
+            $(".car-section2-2-btn1").click(function () {
+                $(this).parent().siblings().filter(".asdgh").text(Number($(this).parent().siblings()
+                    .filter(".asdgh").text()) + 1);
+
+                $(this).parent().parent().siblings().filter(".num-li").text($(this).parent().parent()
+                    .siblings().filter(".car-section2-2-li1").text() * $(this)
+                    .parent().siblings().filter(".asdgh").text())
+
+            })
+
+
+            $("#delete-dv").click(function () {
+                $(this).parent().parent().parent().filter(".car-section2-2").remove();
+            })
+
+            var Ckall = document.querySelector(".cb-ipt");
+            var Ck = document.querySelectorAll(".cb-ipt-1");
+            var numall = document.querySelector(".num-all");
+            var numli = document.querySelectorAll(".num-li");
+            var deletedv=document.querySelectorAll("#delete-dv")
+            Ckall.onclick = () => {
+                for (let i = 0; i < Ck.length; i++) {
+                    Ck[i].checked = Ckall.checked;
+                }
+                 getTotalPrice();
+            }
+
+
+
+            for (let i = 0; i < Ck.length; i++) {
+                Ck[i].onclick = () => {
+                    let count = 0; //计数，选中的数量
+                    for (let j = 0; j < Ck.length; j++) {
+                        if (Ck[j].checked) {
+                            count++;
+                        }
+                    }
+                    if (count == Ck.length) {
+                        Ckall.checked = true;
+                    } else {
+                        Ckall.checked = false;
+                    }
+                     getTotalPrice();
+                }
+            }
+
+           function getTotalPrice() {
+                //计算总价
+                let sum = 0;
+                for (let i = 0; i < Ck.length; i++) {
+                    if (Ck[i].checked) {
+                        console.log(numli);
+                        sum += +numli[i].innerText; //把所有单个复选框选中的商品对应单个总价求和
+                    }
+                }
+                numall.innerText = sum;
+            }
+            $(deletedv).click(function (e) {
+                $(this).parent().parent().remove();
+                $.get("http://jx.xuzhixiang.top/ap/api/cart-delete.php?uid="+localStorage.getItem("UID")+"&pid="+$(this).data("id"),function () {
+                });
+            })
+     
+        })
+    </script>
+</body>
+
+</html>
